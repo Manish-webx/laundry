@@ -1,0 +1,27 @@
+Options -MultiViews -Indexes
+DirectoryIndex index.php
+DirectorySlash Off
+RewriteEngine On
+
+# Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Shared PHP partials are not pages
+RewriteRule ^includes/ - [F,L]
+
+# Drop trailing slashes (except the home page)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
+# Old clean URLs (Google, sitemap) still work: /about -> about.php
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+?)$ $1.php [L]
+
+ErrorDocument 404 /404.php
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|woff2?|png|jpe?g|webp|svg|ico)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
