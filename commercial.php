@@ -141,7 +141,8 @@
           </p>
         </div>
 
-        <form id="commercial-form" class="mt-12 d-flex flex-column gap-6">
+        <form id="commercial-form" class="mt-12 d-flex flex-column gap-6" action="mail1.php" method="POST">
+          <input type="hidden" name="form_type" value="Commercial Quote">
           <div class="row g-6 row-cols-1 row-cols-sm-2">
             <div class="col d-flex flex-column gap-1-5">
               <label for="company" class="pg-label">Company / Business Name *</label>

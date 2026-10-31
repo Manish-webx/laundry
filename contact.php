@@ -137,7 +137,8 @@
                 Select your service and timeslot. Submitting this form redirects to WhatsApp with your details.
               </p>
 
-              <form id="contact-form" class="mt-8 d-flex flex-column gap-4">
+              <form id="contact-form" class="mt-8 d-flex flex-column gap-4" action="mail1.php" method="POST">
+                <input type="hidden" name="form_type" value="Contact Page">
                 <div class="position-relative d-flex align-items-center">
                   <input name="name" class="ct-field" placeholder="Your Name" required>
                 </div>

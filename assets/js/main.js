@@ -228,8 +228,16 @@
       message += "⏰ Time: " + time + "\n";
       message += "📝 Items: " + (notes || "None") + "\n";
 
+      // Pass the pricing-menu cart (if any) to mail1.php as plain text.
+      if (f.order_items) {
+        f.order_items.value = bookingCart
+          .map(function (item) { return item.name + " x" + item.quantity + " (" + item.price + ")"; })
+          .join(", ");
+      }
+
       LT.sendWhatsApp(message);
       modal.hide();
+      bookingForm.submit(); // also email the lead via mail1.php
     });
   }
 
@@ -245,10 +253,5 @@
     });
   });
 
-  // Footer newsletter: no backend, just keep the page from reloading.
-  document.querySelectorAll("[data-newsletter]").forEach(function (form) {
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-    });
-  });
+  // Footer newsletter posts straight to mail1.php (action is set in includes/footer.php).
 })();

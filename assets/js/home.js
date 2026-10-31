@@ -298,6 +298,7 @@
         "⏰ Time: " + time + "\n" +
         "📝 Items: " + (notes.trim() || "None");
       window.LT.sendWhatsApp(message);
+      form.submit(); // also email the lead via mail1.php
     });
   }
 })();

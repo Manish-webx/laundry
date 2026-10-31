@@ -43,7 +43,8 @@
               <h3 class="fs-2xl fw-black text-primary-deep">Order Details</h3>
               <p class="mt-2 fs-sm text-muted-foreground">Please fill in your coordinates and schedule preference.</p>
 
-              <form id="pickup-form" class="mt-8 d-flex flex-column gap-6">
+              <form id="pickup-form" class="mt-8 d-flex flex-column gap-6" action="mail1.php" method="POST">
+                <input type="hidden" name="form_type" value="Book Pickup Page">
                 <div class="d-flex flex-column gap-1-5">
                   <label for="name" class="pg-label d-flex align-items-center gap-1-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user icon-4 text-primary" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Customer Name *</label>
                   <input id="name" name="name" type="text" required class="pg-field" placeholder="e.g. Aravind Swamy">

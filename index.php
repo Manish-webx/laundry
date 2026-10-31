@@ -1226,7 +1226,8 @@
               </div>
             </div>
 
-            <form class="mt-6 d-flex flex-column gap-4" data-contact-form>
+            <form class="mt-6 d-flex flex-column gap-4" action="mail1.php" method="POST" data-contact-form>
+              <input type="hidden" name="form_type" value="Home Page Contact">
               <div class="position-relative d-flex align-items-center">
                 <input class="lt-field" name="name" placeholder="Your Name" aria-label="Your Name" required>
               </div>

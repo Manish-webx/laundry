@@ -31,6 +31,7 @@
         "- *Industry*: " + industry + "\n" +
         "- *Special Instructions*: " + (message || "None");
       send(text);
+      commercial.submit(); // also email the lead via mail1.php
     });
   }
 
@@ -71,6 +72,7 @@
         "⏰ Time: " + time + "\n" +
         "📝 Items: " + (notes.trim() || "None");
       send(message);
+      contact.submit(); // also email the lead via mail1.php
     });
   }
 
@@ -123,6 +125,7 @@
         "- *Timeslot*: " + time + "\n" +
         "- *Instructions*: " + (notes || "None");
       send(text);
+      pickup.submit(); // also email the lead via mail1.php
     });
   }
 })();

@@ -57,8 +57,9 @@ $base = $base ?? '';
       <div>
         <h3 class="footer-heading">Newsletter</h3>
         <p class="mt-4 fs-sm text-muted-foreground">Offers, care tips and service updates. No spam.</p>
-        <form class="mt-4 d-flex gap-2" data-newsletter>
-          <input type="email" aria-label="Email address" placeholder="you@email.com" class="newsletter-input min-w-0 flex-1">
+        <form class="mt-4 d-flex gap-2" action="<?= $base ?>mail1.php" method="POST" data-newsletter>
+          <input type="hidden" name="form_type" value="Newsletter">
+          <input type="email" name="email" required aria-label="Email address" placeholder="you@email.com" class="newsletter-input min-w-0 flex-1">
           <button type="submit" class="accent-gradient flex-shrink-0 rounded-full px-5 py-3 fs-sm fw-bold text-white">Join</button>
         </form>
         <p class="mt-4 fs-sm text-muted-foreground">
@@ -124,7 +125,9 @@ $base = $base ?? '';
         <div class="d-flex flex-column gap-2" data-booking-cart-list></div>
       </div>
 
-      <form class="mt-6 d-flex flex-column gap-4" data-booking-form novalidate>
+      <form class="mt-6 d-flex flex-column gap-4" action="<?= $base ?>mail1.php" method="POST" data-booking-form novalidate>
+        <input type="hidden" name="form_type" value="Booking Popup">
+        <input type="hidden" name="order_items" value="">
         <input class="lt-field" name="name" placeholder="Your Name" aria-label="Your Name" required>
         <input class="lt-field" name="phone" type="tel" placeholder="Your Number" aria-label="Your Number" required>
 
