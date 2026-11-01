@@ -37,7 +37,7 @@
             <button type="button" class="accent-gradient d-inline-flex align-items-center justify-content-center rounded-full px-8 py-4 fs-sm fw-bold text-white shadow-lift hover-up transition-all" data-booking>
               Book Pickup Now
             </button>
-            <a href="../pricing.php" class="svc-btn-glass d-inline-flex align-items-center justify-content-center rounded-full px-8 py-4 fs-sm fw-bold text-white transition-all">
+            <a href="../pricing" class="svc-btn-glass d-inline-flex align-items-center justify-content-center rounded-full px-8 py-4 fs-sm fw-bold text-white transition-all">
               View Rate Card
             </a>
           </div>
@@ -758,7 +758,7 @@
                   <p class="mt-2 fs-xs leading-relaxed text-muted-foreground">Everyday laundry washed, dried and neatly folded.</p>
                 </div>
                 <div class="mt-6">
-                  <a href="../services/wash-fold.php" class="d-inline-flex align-items-center justify-content-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                  <a href="../services/wash-fold" class="d-inline-flex align-items-center justify-content-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                     <span>Explore Service</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                  </a>
                 </div>
@@ -776,7 +776,7 @@
                   <p class="mt-2 fs-xs leading-relaxed text-muted-foreground">Everyday laundry washed, dried, and steam ironed to perfection.</p>
                 </div>
                 <div class="mt-6">
-                  <a href="../services/wash-iron.php" class="d-inline-flex align-items-center justify-content-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                  <a href="../services/wash-iron" class="d-inline-flex align-items-center justify-content-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                     <span>Explore Service</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                  </a>
                 </div>
@@ -794,7 +794,7 @@
                   <p class="mt-2 fs-xs leading-relaxed text-muted-foreground">Synthetic wear, wedding gowns, sarees and delicates treated with care.</p>
                 </div>
                 <div class="mt-6">
-                  <a href="../services/dry-cleaning.php" class="d-inline-flex align-items-center justify-content-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                  <a href="../services/dry-cleaning" class="d-inline-flex align-items-center justify-content-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                     <span>Explore Service</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                  </a>
                 </div>

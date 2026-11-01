@@ -238,7 +238,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Wash &amp; Fold">Book Now</button>
-                <a href="services/wash-fold.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/wash-fold" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -258,7 +258,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Wash &amp; Iron">Book Now</button>
-                <a href="services/wash-iron.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/wash-iron" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -278,7 +278,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Dry Cleaning">Book Now</button>
-                <a href="services/dry-cleaning.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/dry-cleaning" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -298,7 +298,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Steam Ironing">Book Now</button>
-                <a href="services/steam-ironing.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/steam-ironing" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -318,7 +318,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Shoe Cleaning">Book Now</button>
-                <a href="services/shoe-cleaning.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/shoe-cleaning" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -338,7 +338,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Curtain dry Cleaning">Book Now</button>
-                <a href="services/curtain-cleaning.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/curtain-cleaning" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -358,7 +358,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Carpet Cleaning">Book Now</button>
-                <a href="services/carpet-cleaning.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/carpet-cleaning" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -378,7 +378,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Blankets &amp; Duvets">Book Now</button>
-                <a href="services/blanket-cleaning.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/blanket-cleaning" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -398,7 +398,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Sofa Cleaning">Book Now</button>
-                <a href="services/sofa-cleaning.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/sofa-cleaning" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -418,7 +418,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Commercial Laundry">Book Now</button>
-                <a href="services/commercial-laundry.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/commercial-laundry" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>
@@ -438,7 +438,7 @@
               </div>
               <div class="p-5 pt-0 d-flex gap-2-5">
                 <button type="button" class="hsvc-book accent-gradient flex-1 d-flex align-items-center justify-content-center gap-2 rounded-2xl py-2-5 fs-xs fw-bold text-white shadow-soft" data-booking data-booking-service="Express Laundry">Book Now</button>
-                <a href="services/express-laundry.php" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
+                <a href="services/express-laundry" class="hsvc-details flex-1 d-inline-flex align-items-center justify-content-center gap-1 rounded-2xl bg-secondary text-primary-deep fs-xs fw-bold text-center py-2-5">
                   <span>Details</span>
                 </a>
               </div>

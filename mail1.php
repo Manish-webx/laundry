@@ -9,7 +9,7 @@ require __DIR__ . '/PHPMailer/Exception.php';
 
 // Only accept form posts; anyone opening the URL directly goes home.
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: index.php');
+    header('Location: /');
     exit();
 }
 
@@ -113,7 +113,7 @@ try {
     $mail->AltBody = strip_tags(str_replace(['</tr>', '</th>'], ["\n", ': '], $body));
 
     $mail->send();
-    header('Location: thank-you.php');
+    header('Location: thank-you');
     exit();
 } catch (Exception $e) {
     $error = json_encode('Sorry, your request could not be sent. Please call or WhatsApp us at +91 7702608040.');

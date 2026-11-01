@@ -23,7 +23,7 @@
 
   <!-- 1. Back button -->
   <div class="mx-auto mw-4xl px-4 px-sm-6 px-lg-8 mt-8">
-    <a href="../blog.php" class="bf-back d-inline-flex align-items-center gap-2 rounded-xl bg-secondary px-4 py-2-5 fs-xs fw-bold text-primary transition-colors">
+    <a href="../blog" class="bf-back d-inline-flex align-items-center gap-2 rounded-xl bg-secondary px-4 py-2-5 fs-xs fw-bold text-primary transition-colors">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left icon-4" aria-hidden="true"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>      <span>Back to Articles</span>
     </a>
   </div>
@@ -74,7 +74,7 @@
                 <p class="mt-2 fs-xs leading-relaxed text-muted-foreground line-clamp-2">Learn simple washing and drying habits that can preserve fabric colors and stitching for years.</p>
               </div>
               <div class="mt-6">
-                <a href="../blog/5-essential-tips-extend-clothing-lifespan.php" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary">
+                <a href="../blog/5-essential-tips-extend-clothing-lifespan" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary">
                   <span>Read Post</span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock icon-3-5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>                </a>
               </div>
@@ -90,7 +90,7 @@
                 <p class="mt-2 fs-xs leading-relaxed text-muted-foreground line-clamp-2">A complete guide to cleaning white sneakers, treating leather, and maintaining shoe hygiene.</p>
               </div>
               <div class="mt-6">
-                <a href="../blog/how-to-keep-your-sneakers-looking-fresh.php" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary">
+                <a href="../blog/how-to-keep-your-sneakers-looking-fresh" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary">
                   <span>Read Post</span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock icon-3-5" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>                </a>
               </div>

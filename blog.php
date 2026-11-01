@@ -73,7 +73,7 @@ laundry tips">
                   </div>
                   <div class="mt-6 pt-4 border-top border-slate-100 d-flex align-items-center justify-content-between">
                     <span class="d-flex align-items-center gap-1 fs-10px leading-normal fw-bold text-slate-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user icon-3-5" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Rohan Sharma</span>
-                    <a href="blog/5-essential-tips-extend-clothing-lifespan.php" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                    <a href="blog/5-essential-tips-extend-clothing-lifespan" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                       <span>Read Article</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                   </div>
@@ -101,7 +101,7 @@ dry cleaning">
                   </div>
                   <div class="mt-6 pt-4 border-top border-slate-100 d-flex align-items-center justify-content-between">
                     <span class="d-flex align-items-center gap-1 fs-10px leading-normal fw-bold text-slate-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user icon-3-5" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Priya Patel</span>
-                    <a href="blog/dry-cleaning-vs-wet-washing-when-to-use-which.php" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                    <a href="blog/dry-cleaning-vs-wet-washing-when-to-use-which" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                       <span>Read Article</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                   </div>
@@ -129,7 +129,7 @@ shoe care">
                   </div>
                   <div class="mt-6 pt-4 border-top border-slate-100 d-flex align-items-center justify-content-between">
                     <span class="d-flex align-items-center gap-1 fs-10px leading-normal fw-bold text-slate-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user icon-3-5" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Amit Verma</span>
-                    <a href="blog/how-to-keep-your-sneakers-looking-fresh.php" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                    <a href="blog/how-to-keep-your-sneakers-looking-fresh" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                       <span>Read Article</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                   </div>
@@ -157,7 +157,7 @@ home cleaning">
                   </div>
                   <div class="mt-6 pt-4 border-top border-slate-100 d-flex align-items-center justify-content-between">
                     <span class="d-flex align-items-center gap-1 fs-10px leading-normal fw-bold text-slate-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user icon-3-5" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Rohan Sharma</span>
-                    <a href="blog/reducing-home-allergens-curtain-deep-clean-guide.php" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                    <a href="blog/reducing-home-allergens-curtain-deep-clean-guide" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                       <span>Read Article</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                   </div>
@@ -185,7 +185,7 @@ commercial laundry">
                   </div>
                   <div class="mt-6 pt-4 border-top border-slate-100 d-flex align-items-center justify-content-between">
                     <span class="d-flex align-items-center gap-1 fs-10px leading-normal fw-bold text-slate-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user icon-3-5" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Priya Patel</span>
-                    <a href="blog/importance-professional-linen-care-hospitality.php" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
+                    <a href="blog/importance-professional-linen-care-hospitality" class="d-inline-flex align-items-center gap-1-5 fs-xs fw-black text-primary hover-text-primary-deep">
                       <span>Read Article</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                   </div>

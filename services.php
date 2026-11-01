@@ -57,7 +57,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/wash-fold.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/wash-fold" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -86,7 +86,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/wash-iron.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/wash-iron" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -115,7 +115,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/dry-cleaning.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/dry-cleaning" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -144,7 +144,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/steam-ironing.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/steam-ironing" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -173,7 +173,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/shoe-cleaning.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/shoe-cleaning" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -202,7 +202,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/curtain-cleaning.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/curtain-cleaning" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -231,7 +231,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/carpet-cleaning.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/carpet-cleaning" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -260,7 +260,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/blanket-cleaning.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/blanket-cleaning" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -289,7 +289,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/sofa-cleaning.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/sofa-cleaning" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -318,7 +318,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/commercial-laundry.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/commercial-laundry" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -347,7 +347,7 @@
                   </div>
 
                   <div class="mt-6 d-flex flex-column gap-2-5">
-                    <a href="services/express-laundry.php" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
+                    <a href="services/express-laundry" class="svc-btn-details d-inline-flex align-items-center justify-content-center gap-2 rounded-2xl px-5 py-3 fs-xs fw-black text-center">
                       <span>View Details &amp; Pricing</span>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right icon-3-5" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>                    </a>
                     <button type="button" class="svc-btn-book d-inline-flex align-items-center justify-content-center rounded-2xl px-5 py-3 fs-xs fw-bold" data-booking>
@@ -370,7 +370,7 @@
         Have bulky items, specialized stain removal jobs, or custom hotel and business linen contracts? Get in touch with our team.
       </p>
       <div class="mt-8 d-flex justify-content-center gap-4">
-        <a href="contact.php" class="accent-gradient rounded-full px-8 py-4 fs-sm fw-extrabold text-white shadow-lift hover-up transition-transform">Get In Touch</a>
+        <a href="contact" class="accent-gradient rounded-full px-8 py-4 fs-sm fw-extrabold text-white shadow-lift hover-up transition-transform">Get In Touch</a>
       </div>
     </div>
   </section>

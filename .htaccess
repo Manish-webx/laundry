@@ -7,14 +7,27 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Shared PHP partials are not pages
-RewriteRule ^includes/ - [F,L]
+# Shared PHP partials and the mailer library are not pages
+RewriteRule ^(includes|PHPMailer)/ - [F,L]
+
+# /index.php or /index -> / (also inside folders, e.g. /blog/index.php -> /blog/)
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{THE_REQUEST} \s/+((?:[^\s?]*/)?)index(?:\.php)?[\s?] [NC]
+RewriteRule ^ /%1 [L,R=301,NE]
+
+# Hide the .php extension: /about.php -> /about (301, keeps the query string).
+# THE_REQUEST is the browser's original request line, so the internal rewrite
+# below can't cause a redirect loop. POSTs (form submissions to mail1.php) are
+# never redirected, because a redirect would drop the form data.
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{THE_REQUEST} \s/+([^\s?]+?)\.php[\s?] [NC]
+RewriteRule ^ /%1 [L,R=301,NE]
 
 # Drop trailing slashes (except the home page)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)/$ /$1 [L,R=301]
 
-# Old clean URLs (Google, sitemap) still work: /about -> about.php
+# Serve clean URLs from the matching file: /about -> about.php
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^(.+?)$ $1.php [L]
 

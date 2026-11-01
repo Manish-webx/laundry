@@ -26,31 +26,31 @@ $base = $base ?? '';
       <div>
         <h3 class="footer-heading">Quick Links</h3>
         <ul class="mt-4 footer-list">
-          <li><a href="<?= $base ?>index.php">Home</a></li>
-          <li><a href="<?= $base ?>about.php">About Us</a></li>
-          <li><a href="<?= $base ?>services.php">Services</a></li>
-          <li><a href="<?= $base ?>pricing.php">Pricing</a></li>
-          <li><a href="<?= $base ?>areas-we-serve.php">Areas We Serve</a></li>
-          <li><a href="<?= $base ?>faq.php">FAQ</a></li>
-          <li><a href="<?= $base ?>contact.php">Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="<?= $base ?>about">About Us</a></li>
+          <li><a href="<?= $base ?>services">Services</a></li>
+          <li><a href="<?= $base ?>pricing">Pricing</a></li>
+          <li><a href="<?= $base ?>areas-we-serve">Areas We Serve</a></li>
+          <li><a href="<?= $base ?>faq">FAQ</a></li>
+          <li><a href="<?= $base ?>contact">Contact</a></li>
         </ul>
 
         <h3 class="mt-8 footer-heading">Service Areas</h3>
         <p class="mt-3 fs-xs text-muted-foreground leading-relaxed">
           Serving Kharghar, Vashi, Nerul, Belapur, Seawoods, Airoli, and all major areas across Navi Mumbai.
         </p>
-        <a href="<?= $base ?>areas-we-serve.php" class="mt-2 d-inline-block fs-xs fw-bold text-primary footer-coverage-link">View Full Coverage List &rarr;</a>
+        <a href="<?= $base ?>areas-we-serve" class="mt-2 d-inline-block fs-xs fw-bold text-primary footer-coverage-link">View Full Coverage List &rarr;</a>
       </div>
 
       <div>
         <h3 class="footer-heading">Services</h3>
         <ul class="mt-4 footer-list">
-          <li><a href="<?= $base ?>services/wash-fold.php">Wash &amp; Fold</a></li>
-          <li><a href="<?= $base ?>services/wash-iron.php">Wash &amp; Iron</a></li>
-          <li><a href="<?= $base ?>services/dry-cleaning.php">Dry Cleaning</a></li>
-          <li><a href="<?= $base ?>services/steam-ironing.php">Steam Ironing</a></li>
-          <li><a href="<?= $base ?>services/shoe-cleaning.php">Shoe Cleaning</a></li>
-          <li><a href="<?= $base ?>commercial.php">Commercial Laundry</a></li>
+          <li><a href="<?= $base ?>services/wash-fold">Wash &amp; Fold</a></li>
+          <li><a href="<?= $base ?>services/wash-iron">Wash &amp; Iron</a></li>
+          <li><a href="<?= $base ?>services/dry-cleaning">Dry Cleaning</a></li>
+          <li><a href="<?= $base ?>services/steam-ironing">Steam Ironing</a></li>
+          <li><a href="<?= $base ?>services/shoe-cleaning">Shoe Cleaning</a></li>
+          <li><a href="<?= $base ?>commercial">Commercial Laundry</a></li>
         </ul>
       </div>
 
@@ -87,7 +87,7 @@ $base = $base ?? '';
   <div class="d-flex justify-content-start align-items-center gap-2 ps-1">
     <a href="tel:+917702608040" class="fb-btn animate-bounce" style="animation-duration:3s;animation-delay:.2s"><span>Call</span></a>
     <a href="https://wa.me/917702608040" class="fb-btn animate-bounce" style="animation-duration:3s;animation-delay:.4s"><span>WhatsApp</span></a>
-    <a href="<?= $base ?>pricing.php" class="fb-btn animate-bounce" style="animation-duration:3s;animation-delay:.6s"><span class="whitespace-nowrap">Price list</span></a>
+    <a href="<?= $base ?>pricing" class="fb-btn animate-bounce" style="animation-duration:3s;animation-delay:.6s"><span class="whitespace-nowrap">Price list</span></a>
   </div>
 </div>
 

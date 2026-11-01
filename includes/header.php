@@ -32,6 +32,8 @@ $serviceLinks = [
 ];
 
 $activeClass = fn(string $href): string => $href === $activeNav ? ' is-active' : '';
+// Clean URLs: 'about.php' -> about, 'index.php' -> / (see .htaccess).
+$url = fn(string $href): string => $href === 'index.php' ? '/' : $base . preg_replace('/\.php$/', '', $href);
 ?>
 <header id="site-header" class="site-header">
   <div class="announce-bar">
@@ -40,7 +42,7 @@ $activeClass = fn(string $href): string => $href === $activeNav ? ' is-active' :
   </div>
 
   <div class="container-7xl d-flex align-items-center gap-4 py-3">
-    <a href="<?= $base ?>index.php" class="d-flex min-w-0 flex-shrink-0 align-items-center gap-2">
+    <a href="/" class="d-flex min-w-0 flex-shrink-0 align-items-center gap-2">
       <img src="<?= $base ?>logo1.jpeg" alt="Laundry Today" class="site-logo rounded-full object-contain">
       <span class="site-brand">Laundry Today</span>
     </a>
@@ -49,18 +51,18 @@ $activeClass = fn(string $href): string => $href === $activeNav ? ' is-active' :
 <?php foreach ($navLinks as $href => $label): ?>
 <?php if ($href === 'services.php'): ?>
       <div class="nav-dropdown position-relative py-2">
-        <a href="<?= $base ?>services.php" class="nav-pill d-inline-flex align-items-center gap-1-5<?= $activeClass($href) ?>">
+        <a href="<?= $base ?>services" class="nav-pill d-inline-flex align-items-center gap-1-5<?= $activeClass($href) ?>">
           <span>Services</span>
           <span class="nav-caret"></span>
         </a>
         <div class="nav-dropdown-menu">
 <?php foreach ($serviceLinks as $svcHref => $svcLabel): ?>
-          <a href="<?= $base . $svcHref ?>"><?= $svcLabel ?></a>
+          <a href="<?= $url($svcHref) ?>"><?= $svcLabel ?></a>
 <?php endforeach; ?>
         </div>
       </div>
 <?php else: ?>
-      <a href="<?= $base . $href ?>" class="nav-pill<?= $activeClass($href) ?>"><?= $label ?></a>
+      <a href="<?= $url($href) ?>" class="nav-pill<?= $activeClass($href) ?>"><?= $label ?></a>
 <?php endif; ?>
 <?php endforeach; ?>
     </nav>
@@ -78,7 +80,7 @@ $activeClass = fn(string $href): string => $href === $activeNav ? ' is-active' :
   <div id="mobileMenu" class="collapse d-lg-none mobile-menu">
     <nav class="d-flex flex-column gap-1 px-4 py-4" aria-label="Mobile">
 <?php foreach ($navLinks as $href => $label): ?>
-      <a href="<?= $base . $href ?>" class="mobile-link<?= $activeClass($href) ?>"><?= $label ?></a>
+      <a href="<?= $url($href) ?>" class="mobile-link<?= $activeClass($href) ?>"><?= $label ?></a>
 <?php endforeach; ?>
       <div class="mt-2 ps-4 pb-4">
         <button type="button" class="mobile-book-btn" data-bs-toggle="collapse" data-bs-target="#mobileMenu" data-booking>Book now</button>
